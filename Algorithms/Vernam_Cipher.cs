@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Linq;
+using System.Text;
 
 namespace c__project.Algorithms
 {
@@ -19,6 +20,11 @@ namespace c__project.Algorithms
 
             return cipheredText.ToString();
         }
+       /* public static string Decrypt(string cipheredText)
+        {
+                        StringBuilder cipheredText = new StringBuilder();
+
+        }*/
 
         public static string GenerateKeyFor(string text)
         {

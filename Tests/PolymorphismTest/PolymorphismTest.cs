@@ -1,4 +1,7 @@
-﻿namespace c__project.Tests.PolymorphismTest
+﻿using System;
+using System.Collections.Generic;
+
+namespace c__project.Tests.PolymorphismTest
 {
     public class PolymorphismTest
     {

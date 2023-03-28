@@ -1,4 +1,7 @@
-﻿namespace c__project.Algorithms
+﻿using lab_ssi.Algorithms;
+using System;
+
+namespace c__project.Algorithms
 {
     public class Bootstrapper
     {
@@ -7,8 +10,12 @@
             const string albertiCipher = "Albert Cipher";
             const string caesarCipher = "Caesar Cipher";
             const string vernamCipher = "Vernam Cipher";
+            const string stringLFSR = "LFSR";
+            const string exempluMoneda = "exempluMoneda";
+            //cum faci char to binary?
+            //
 
-            const string algorithm = vernamCipher;
+            const string algorithm = stringLFSR;
 
             switch (algorithm)
             {
@@ -27,7 +34,15 @@
                 case vernamCipher:
                     Console.WriteLine(VernamCipher.Encrypt("hello"));
                     break;
+
+                case stringLFSR:
+                    LFSR.Run("10111");
+                    break;
+                case exempluMoneda:
+
+                    break;
             }
         }
     }
 }
+
