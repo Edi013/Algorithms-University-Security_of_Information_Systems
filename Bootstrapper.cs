@@ -12,10 +12,11 @@ namespace c__project.Algorithms
             const string vernamCipher = "Vernam Cipher";
             const string stringLFSR = "LFSR";
             const string exempluMoneda = "exempluMoneda";
+            const string lab0502 = "lab0502";
             //cum faci char to binary?
             //
 
-            const string algorithm = stringLFSR;
+            const string algorithm = lab0502;
 
             switch (algorithm)
             {
@@ -39,7 +40,9 @@ namespace c__project.Algorithms
                     LFSR.Run("10111");
                     break;
                 case exempluMoneda:
-
+                    break;
+                case lab0502:
+                    Lab0502.Run();
                     break;
             }
         }
